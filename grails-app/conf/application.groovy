@@ -1,6 +1,6 @@
 
 grails.plugin.springsecurity.roleHierarchy = '''
-        ROLE_ADMIN > ROLE_USER
+        ROLE_ADMIN>ROLE_USER
 '''
 
 // Added by the Spring Security Core plugin:
