@@ -1,5 +1,14 @@
-# Test setup
+# Hiearchical roles
 
+This repo is to demonstrate hierarchical roles with Grails 4. The hierarchy relationship is specified by the ">" operator.
+```groovy 
+grails.plugin.springsecurity.roleHierarchy = '''
+        ROLE_ADMIN>ROLE_USER
+'''
+```
+This repository demonstrates that with Grails 4, this syntax will not work as it did with Grails 3, and that we need to surround the ">" with spaces.
+
+### Test setup
 ```shell
 $ sdk use java 8.0.312-zulu
 $ sdk use grails 4.0.13
