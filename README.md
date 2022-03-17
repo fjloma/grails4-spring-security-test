@@ -1,4 +1,4 @@
-#Test setup
+Test setup
 
 ```shell
 $ sdk use java 8.0.312-zulu
